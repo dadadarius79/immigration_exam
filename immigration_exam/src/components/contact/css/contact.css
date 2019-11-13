@@ -1,0 +1,55 @@
+/* common */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mainBGColor {
+  background-color: #9CD9D9;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+
+
+.contactWrapper {
+  height: 100vh;
+  display: flex;
+}
+
+.contactContents {
+  width: 50vw;
+}
+
+.contactTitle {
+  height: 50vh;
+  line-height: 50vh;
+  text-align: center;
+}
+
+.contactInfo {
+  height: 50vh;
+  width: 40vw;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.contactInfoContents {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.contactMap {
+  width: 50vw;
+}
+
+.mapDemo {
+  width: 50vw;
+  height: 100vh;
+  border: 0;
+}
