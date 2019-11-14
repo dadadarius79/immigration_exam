@@ -21,11 +21,10 @@ const Contact = () => {
             <br />
             <p>
               Our clinic has a free rear parking and is easily accessible by public transport.
-          </p>
+            </p>
             <br />
             <p>Phone: 604-356-3617</p>
             <p>Email: info@immigrationexam.ca</p>
-
           </div>
         </div>
       </div>
