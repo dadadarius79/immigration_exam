@@ -1,6 +1,6 @@
-import React from 'react';
-import Iframe from 'react-iframe';
-import './css/contact.css';
+import React from "react";
+import Iframe from "react-iframe";
+import "./css/contact.css";
 
 const Contact = () => {
   return (
@@ -11,7 +11,9 @@ const Contact = () => {
         </div>
         <div className="contactInfo">
           <div className="contactInfoContents">
-            <p><b>Clinic Address:</b></p>
+            <p>
+              <b>Clinic Address:</b>
+            </p>
             <br />
             <p>
               4303 West 10th Avenue, <br />
@@ -20,12 +22,12 @@ const Contact = () => {
             </p>
             <br />
             <p>
-              Our clinic has a free rear parking and is easily accessible by public transport.
-          </p>
+              Our clinic has a free rear parking and is easily accessible by
+              public transport.
+            </p>
             <br />
             <p>Phone: 604-356-3617</p>
             <p>Email: info@immigrationexam.ca</p>
-
           </div>
         </div>
       </div>
@@ -37,6 +39,6 @@ const Contact = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Contact;
